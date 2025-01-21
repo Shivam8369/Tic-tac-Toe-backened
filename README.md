@@ -29,6 +29,15 @@ A RESTful backend for a Tic-Tac-Toe game with user management and game history t
 
 4. Start the server: npm run dev
 
+## Assumption I made
+I assume that the tic-tac-toe game is played by two users, with one user creating the game and adding the player 2 ID. Both players are playing in two separate tabs, and all game validations are handled on the backend only.
+
+## Approach
+creating 3 model user, game and move 
+creating 2 controller authentication and games
+user one will create a game and add other user to it 
+both will play the game in separate tab in on every click a backened  call is made for validation
+
 
 ## Design Decisions
 
